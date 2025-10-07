@@ -21,7 +21,7 @@ class Config:
     batch_size = 128
     num_epochs = 100
     num_classes = 1  # 二分类
-    lr = 0.001
+    lr = 0.0001
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     seed = 42
 
